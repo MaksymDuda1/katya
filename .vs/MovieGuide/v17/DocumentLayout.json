@@ -1,0 +1,286 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\wpf\\MovieGuide\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{85662BC2-082F-4FE9-A02C-1464888249DA}|MovieGuide\\MovieGuide.csproj|d:\\wpf\\movieguide\\movieguide\\login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{85662BC2-082F-4FE9-A02C-1464888249DA}|MovieGuide\\MovieGuide.csproj|solutionrelative:movieguide\\login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85662BC2-082F-4FE9-A02C-1464888249DA}|MovieGuide\\MovieGuide.csproj|d:\\wpf\\movieguide\\movieguide\\login.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85662BC2-082F-4FE9-A02C-1464888249DA}|MovieGuide\\MovieGuide.csproj|solutionrelative:movieguide\\login.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85662BC2-082F-4FE9-A02C-1464888249DA}|MovieGuide\\MovieGuide.csproj|d:\\wpf\\movieguide\\movieguide\\registration.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{85662BC2-082F-4FE9-A02C-1464888249DA}|MovieGuide\\MovieGuide.csproj|solutionrelative:movieguide\\registration.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85662BC2-082F-4FE9-A02C-1464888249DA}|MovieGuide\\MovieGuide.csproj|d:\\wpf\\movieguide\\movieguide\\registration.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85662BC2-082F-4FE9-A02C-1464888249DA}|MovieGuide\\MovieGuide.csproj|solutionrelative:movieguide\\registration.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85662BC2-082F-4FE9-A02C-1464888249DA}|MovieGuide\\MovieGuide.csproj|d:\\wpf\\movieguide\\movieguide\\favoritemovies.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85662BC2-082F-4FE9-A02C-1464888249DA}|MovieGuide\\MovieGuide.csproj|solutionrelative:movieguide\\favoritemovies.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85662BC2-082F-4FE9-A02C-1464888249DA}|MovieGuide\\MovieGuide.csproj|d:\\wpf\\movieguide\\movieguide\\services\\enumtovalue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85662BC2-082F-4FE9-A02C-1464888249DA}|MovieGuide\\MovieGuide.csproj|solutionrelative:movieguide\\services\\enumtovalue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85662BC2-082F-4FE9-A02C-1464888249DA}|MovieGuide\\MovieGuide.csproj|d:\\wpf\\movieguide\\movieguide\\enums\\genre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85662BC2-082F-4FE9-A02C-1464888249DA}|MovieGuide\\MovieGuide.csproj|solutionrelative:movieguide\\enums\\genre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85662BC2-082F-4FE9-A02C-1464888249DA}|MovieGuide\\MovieGuide.csproj|d:\\wpf\\movieguide\\movieguide\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85662BC2-082F-4FE9-A02C-1464888249DA}|MovieGuide\\MovieGuide.csproj|solutionrelative:movieguide\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\maksi\\AppData\\Local\\Temp\\.vsdbgsrc\\0a84cc53936b314ba955b54f50bf4796d8234943f3fd7b93873381b45d404026\\XamlReader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85662BC2-082F-4FE9-A02C-1464888249DA}|MovieGuide\\MovieGuide.csproj|d:\\wpf\\movieguide\\movieguide\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{85662BC2-082F-4FE9-A02C-1464888249DA}|MovieGuide\\MovieGuide.csproj|solutionrelative:movieguide\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85662BC2-082F-4FE9-A02C-1464888249DA}|MovieGuide\\MovieGuide.csproj|d:\\wpf\\movieguide\\movieguide\\moviedetailspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85662BC2-082F-4FE9-A02C-1464888249DA}|MovieGuide\\MovieGuide.csproj|solutionrelative:movieguide\\moviedetailspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85662BC2-082F-4FE9-A02C-1464888249DA}|MovieGuide\\MovieGuide.csproj|d:\\wpf\\movieguide\\movieguide\\moviedetailspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{85662BC2-082F-4FE9-A02C-1464888249DA}|MovieGuide\\MovieGuide.csproj|solutionrelative:movieguide\\moviedetailspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85662BC2-082F-4FE9-A02C-1464888249DA}|MovieGuide\\MovieGuide.csproj|d:\\wpf\\movieguide\\movieguide\\models\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85662BC2-082F-4FE9-A02C-1464888249DA}|MovieGuide\\MovieGuide.csproj|solutionrelative:movieguide\\models\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85662BC2-082F-4FE9-A02C-1464888249DA}|MovieGuide\\MovieGuide.csproj|d:\\wpf\\movieguide\\movieguide\\favoritemovies.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{85662BC2-082F-4FE9-A02C-1464888249DA}|MovieGuide\\MovieGuide.csproj|solutionrelative:movieguide\\favoritemovies.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85662BC2-082F-4FE9-A02C-1464888249DA}|MovieGuide\\MovieGuide.csproj|d:\\wpf\\movieguide\\movieguide\\movieguide.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{85662BC2-082F-4FE9-A02C-1464888249DA}|MovieGuide\\MovieGuide.csproj|solutionrelative:movieguide\\movieguide.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85662BC2-082F-4FE9-A02C-1464888249DA}|MovieGuide\\MovieGuide.csproj|d:\\wpf\\movieguide\\movieguide\\models\\director.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85662BC2-082F-4FE9-A02C-1464888249DA}|MovieGuide\\MovieGuide.csproj|solutionrelative:movieguide\\models\\director.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Genre.cs",
+              "DocumentMoniker": "D:\\wpf\\MovieGuide\\MovieGuide\\Enums\\Genre.cs",
+              "RelativeDocumentMoniker": "MovieGuide\\Enums\\Genre.cs",
+              "ToolTip": "D:\\wpf\\MovieGuide\\MovieGuide\\Enums\\Genre.cs",
+              "RelativeToolTip": "MovieGuide\\Enums\\Genre.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAuwAoAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-21T18:19:46.21Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EnumToValue.cs",
+              "DocumentMoniker": "D:\\wpf\\MovieGuide\\MovieGuide\\Services\\EnumToValue.cs",
+              "RelativeDocumentMoniker": "MovieGuide\\Services\\EnumToValue.cs",
+              "ToolTip": "D:\\wpf\\MovieGuide\\MovieGuide\\Services\\EnumToValue.cs",
+              "RelativeToolTip": "MovieGuide\\Services\\EnumToValue.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwA4AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-21T22:40:48.685Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FavoriteMovies.xaml.cs",
+              "DocumentMoniker": "D:\\wpf\\MovieGuide\\MovieGuide\\FavoriteMovies.xaml.cs",
+              "RelativeDocumentMoniker": "MovieGuide\\FavoriteMovies.xaml.cs",
+              "ToolTip": "D:\\wpf\\MovieGuide\\MovieGuide\\FavoriteMovies.xaml.cs",
+              "RelativeToolTip": "MovieGuide\\FavoriteMovies.xaml.cs",
+              "ViewState": "AQIAAEIAAAAAAAAAAAAgwEwAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-21T21:27:09.507Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Login.xaml.cs",
+              "DocumentMoniker": "D:\\wpf\\MovieGuide\\MovieGuide\\Login.xaml.cs",
+              "RelativeDocumentMoniker": "MovieGuide\\Login.xaml.cs",
+              "ToolTip": "D:\\wpf\\MovieGuide\\MovieGuide\\Login.xaml.cs",
+              "RelativeToolTip": "MovieGuide\\Login.xaml.cs",
+              "ViewState": "AQIAADkAAAAAAAAAAAAYwEcAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-21T16:13:02.895Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Registration.xaml.cs",
+              "DocumentMoniker": "D:\\wpf\\MovieGuide\\MovieGuide\\Registration.xaml.cs",
+              "RelativeDocumentMoniker": "MovieGuide\\Registration.xaml.cs",
+              "ToolTip": "D:\\wpf\\MovieGuide\\MovieGuide\\Registration.xaml.cs",
+              "RelativeToolTip": "MovieGuide\\Registration.xaml.cs",
+              "ViewState": "AQIAAEgAAAAAAAAAAAAAAFcAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-21T16:52:34.988Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Login.xaml",
+              "DocumentMoniker": "D:\\wpf\\MovieGuide\\MovieGuide\\Login.xaml",
+              "RelativeDocumentMoniker": "MovieGuide\\Login.xaml",
+              "ToolTip": "D:\\wpf\\MovieGuide\\MovieGuide\\Login.xaml",
+              "RelativeToolTip": "MovieGuide\\Login.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-21T16:09:56.801Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Registration.xaml",
+              "DocumentMoniker": "D:\\wpf\\MovieGuide\\MovieGuide\\Registration.xaml",
+              "RelativeDocumentMoniker": "MovieGuide\\Registration.xaml",
+              "ToolTip": "D:\\wpf\\MovieGuide\\MovieGuide\\Registration.xaml",
+              "RelativeToolTip": "MovieGuide\\Registration.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-21T16:50:38.965Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MovieDetailsPage.xaml",
+              "DocumentMoniker": "D:\\wpf\\MovieGuide\\MovieGuide\\MovieDetailsPage.xaml",
+              "RelativeDocumentMoniker": "MovieGuide\\MovieDetailsPage.xaml",
+              "ToolTip": "D:\\wpf\\MovieGuide\\MovieGuide\\MovieDetailsPage.xaml",
+              "RelativeToolTip": "MovieGuide\\MovieDetailsPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-22T19:05:08.606Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\wpf\\MovieGuide\\MovieGuide\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MovieGuide\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\wpf\\MovieGuide\\MovieGuide\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MovieGuide\\MainWindow.xaml.cs",
+              "ViewState": "AQIAADUAAAAAAAAAAAAcwEcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-21T15:40:12.896Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Director.cs",
+              "DocumentMoniker": "D:\\wpf\\MovieGuide\\MovieGuide\\Models\\Director.cs",
+              "RelativeDocumentMoniker": "MovieGuide\\Models\\Director.cs",
+              "ToolTip": "D:\\wpf\\MovieGuide\\MovieGuide\\Models\\Director.cs",
+              "RelativeToolTip": "MovieGuide\\Models\\Director.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-21T18:21:35.748Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "XamlReader.cs",
+              "DocumentMoniker": "C:\\Users\\maksi\\AppData\\Local\\Temp\\.vsdbgsrc\\0a84cc53936b314ba955b54f50bf4796d8234943f3fd7b93873381b45d404026\\XamlReader.cs",
+              "ToolTip": "C:\\Users\\maksi\\AppData\\Local\\Temp\\.vsdbgsrc\\0a84cc53936b314ba955b54f50bf4796d8234943f3fd7b93873381b45d404026\\XamlReader.cs",
+              "ViewState": "AQIAAKoBAAAAAAAAAAAAwLUBAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-21T20:06:50.784Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "FavoriteMovies.xaml",
+              "DocumentMoniker": "D:\\wpf\\MovieGuide\\MovieGuide\\FavoriteMovies.xaml",
+              "RelativeDocumentMoniker": "MovieGuide\\FavoriteMovies.xaml",
+              "ToolTip": "D:\\wpf\\MovieGuide\\MovieGuide\\FavoriteMovies.xaml",
+              "RelativeToolTip": "MovieGuide\\FavoriteMovies.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-21T21:27:01.62Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "MovieGuide.csproj",
+              "DocumentMoniker": "D:\\wpf\\MovieGuide\\MovieGuide\\MovieGuide.csproj",
+              "RelativeDocumentMoniker": "MovieGuide\\MovieGuide.csproj",
+              "ToolTip": "D:\\wpf\\MovieGuide\\MovieGuide\\MovieGuide.csproj",
+              "RelativeToolTip": "MovieGuide\\MovieGuide.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-04-21T22:39:56.716Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MovieDetailsPage.xaml.cs",
+              "DocumentMoniker": "D:\\wpf\\MovieGuide\\MovieGuide\\MovieDetailsPage.xaml.cs",
+              "RelativeDocumentMoniker": "MovieGuide\\MovieDetailsPage.xaml.cs",
+              "ToolTip": "D:\\wpf\\MovieGuide\\MovieGuide\\MovieDetailsPage.xaml.cs",
+              "RelativeToolTip": "MovieGuide\\MovieDetailsPage.xaml.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAIA0wCUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T19:05:50.394Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Movie.cs",
+              "DocumentMoniker": "D:\\wpf\\MovieGuide\\MovieGuide\\Models\\Movie.cs",
+              "RelativeDocumentMoniker": "MovieGuide\\Models\\Movie.cs",
+              "ToolTip": "D:\\wpf\\MovieGuide\\MovieGuide\\Models\\Movie.cs",
+              "RelativeToolTip": "MovieGuide\\Models\\Movie.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAqwBMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-21T18:14:39.244Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\wpf\\MovieGuide\\MovieGuide\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MovieGuide\\MainWindow.xaml",
+              "ToolTip": "D:\\wpf\\MovieGuide\\MovieGuide\\MainWindow.xaml",
+              "RelativeToolTip": "MovieGuide\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-21T15:40:13.773Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
