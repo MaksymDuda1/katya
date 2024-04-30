@@ -28,13 +28,15 @@ namespace MovieGuide
         public MovieDetailsPage(Movie movie, string login)
         {
             InitializeComponent();
+            this.login = login;
             selectedMovie = movie;
+            isInFavorite = IsInFavorite(movie.Id);
             GetImages();
             BindMovieDetails();
-            this.login = login;
         }
 
         string login = "";
+        bool isInFavorite = false;
 
         private void BackButton_Click(object sender, RoutedEventArgs e)
         {
@@ -60,6 +62,10 @@ namespace MovieGuide
             rateTextBlock.Text = selectedMovie.Rate.ToString();
             genreTextBlock.Text = selectedMovie.Genre.ToString();
             coverImageControl.Source = new BitmapImage(new Uri(selectedMovie.CoverImage));
+            if (isInFavorite)
+                favorite.Content = "Remove from favorite";
+            else
+                favorite.Content = "Add to Favorites";
             if (selectedMovie != null && selectedMovie.Images != null)
             {
                 List<BitmapImage> bitmapImages = new List<BitmapImage>();
@@ -135,6 +141,62 @@ namespace MovieGuide
             }
         }
 
+        private bool IsInFavorite(int id)
+        {
+            string connectionString = "Server=localhost;DATABASE=MoviesGuide;UID=root;PASSWORD=1234";
+
+            if (selectedMovie != null && selectedMovie.Id > 0)
+            {
+                using (MySqlConnection conn = new MySqlConnection(connectionString))
+                {
+                    try
+                    {
+                        conn.Open();
+                        string query = "SELECT Id FROM users WHERE Login = @login";
+                        MySqlCommand userCmd = new MySqlCommand(query, conn);
+                        userCmd.Parameters.AddWithValue("@login", login);
+
+                        string userId = "";
+                        using (MySqlDataReader reader = userCmd.ExecuteReader())
+                        {
+                            if (reader.Read())
+                            {
+                                userId = reader["Id"].ToString();
+                            }
+                        }
+
+                        if (!string.IsNullOrEmpty(userId))
+                        {
+                            string selectQuery = "SELECT COUNT(*) FROM UserMovie WHERE User_Id = @userId AND Movie_Id = @movieId";
+                            MySqlCommand selectCmd = new MySqlCommand(selectQuery, conn);
+                            selectCmd.Parameters.AddWithValue("@userId", userId);
+                            selectCmd.Parameters.AddWithValue("@movieId", selectedMovie.Id);
+
+                            int count = Convert.ToInt32(selectCmd.ExecuteScalar());
+                            return count > 0;
+                        }
+                        else
+                        {
+                            return false;
+                        }
+                    }
+                    catch (MySqlException ex)
+                    {
+                        // Зробити щось з винятком, наприклад, записати в журнал
+                        return false;
+                    }
+                    finally
+                    {
+                        conn.Close();
+                    }
+                }
+            }
+            else
+            {
+                return false;
+            }
+        }
+
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             string connectionString = "Server=localhost;DATABASE=MoviesGuide;UID=root;PASSWORD=1234";
@@ -167,19 +229,43 @@ namespace MovieGuide
 
                         if (!string.IsNullOrEmpty(userId))
                         {
-                            string addQuery = "INSERT INTO UserMovie (User_Id, Movie_Id) VALUES (@userId, @movieId)";
-                            MySqlCommand addCmd = new MySqlCommand(addQuery, conn);
-                            addCmd.Parameters.AddWithValue("@userId", userId);
-                            addCmd.Parameters.AddWithValue("@movieId", selectedMovie.Id);
+                            if (!isInFavorite)
+                            {
+                                string addQuery = "INSERT INTO UserMovie (User_Id, Movie_Id) VALUES (@userId, @movieId)";
+                                MySqlCommand addCmd = new MySqlCommand(addQuery, conn);
+                                addCmd.Parameters.AddWithValue("@userId", userId);
+                                addCmd.Parameters.AddWithValue("@movieId", selectedMovie.Id);
 
-                            int rowsAffected = addCmd.ExecuteNonQuery();
-                            if (rowsAffected > 0)
-                            {
-                                MessageBox.Show("Movie added to your favorites.");
+                                int rowsAffected = addCmd.ExecuteNonQuery();
+                                if (rowsAffected > 0)
+                                {
+
+                                    isInFavorite = true;
+                                    favorite.Content = "Remove from favorites";
+                                    MessageBox.Show("Movie added to your favorites.");
+                                }
+                                else
+                                {
+                                    MessageBox.Show("Failed to add the movie to your favorites.");
+                                }
                             }
-                            else
-                            {
-                                MessageBox.Show("Failed to add the movie to your favorites.");
+                            else {
+                                string deleteQuery = "DELETE FROM UserMovie WHERE User_Id = @userId AND Movie_Id = @movieId";
+                                MySqlCommand deleteCmd = new MySqlCommand(deleteQuery, conn);
+                                deleteCmd.Parameters.AddWithValue("@userId", userId);
+                                deleteCmd.Parameters.AddWithValue("@movieId", selectedMovie.Id);
+                                int rowsAffected = deleteCmd.ExecuteNonQuery();
+                                if (rowsAffected > 0)
+                                {
+                                    isInFavorite = false;
+                                    favorite.Content = "Add to favorites";
+                                    MessageBox.Show("Movie deleted from your favorites.");
+                                }
+                                else
+                                {
+                                    MessageBox.Show("Failed to delete the movie from your favorites.");
+                                }
+
                             }
                         }
                         else

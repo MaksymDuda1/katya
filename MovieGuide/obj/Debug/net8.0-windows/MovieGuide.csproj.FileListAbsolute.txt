@@ -46,3 +46,4 @@ D:\wpf\MovieGuide\MovieGuide\bin\Debug\net8.0-windows\runtimes\unix\lib\netcorea
 D:\wpf\MovieGuide\MovieGuide\bin\Debug\net8.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
 D:\wpf\MovieGuide\MovieGuide\obj\Debug\net8.0-windows\MovieDetailsPage.g.cs
 D:\wpf\MovieGuide\MovieGuide\obj\Debug\net8.0-windows\MovieDetailsPage.baml
+D:\wpf\MovieGuide\MovieGuide\obj\Debug\net8.0-windows\MovieGuide.sourcelink.json

@@ -133,6 +133,16 @@ namespace MovieGuide
             }
         }
 
+        private void moviesListBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            if (moviesListBox.SelectedItem is Movie selectedMovie)
+            {
+                MovieDetailsPage movieDetailsPage = new MovieDetailsPage(selectedMovie, login);
+                this.Close();
+                movieDetailsPage.Show();
+            }
+        }
+
         private void BackButton_Click(object sender, RoutedEventArgs e)
         {
             var main = new MainWindow(login);

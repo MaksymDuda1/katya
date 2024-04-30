@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MovieGuide")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9b41ddd3df716377aa054e22822daaa454c35cd3")]
 [assembly: System.Reflection.AssemblyProductAttribute("MovieGuide")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MovieGuide")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
